@@ -1,0 +1,113 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: 0;
+  box-sizing: 0;
+}
+
+body {
+  font-family: Segoe UI, Helvetica, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgb(36, 35, 60);
+  background: linear-gradient(
+    90deg,
+    rgba(36, 35, 60, 1) 0%,
+    rgba(31, 32, 89, 0.9858156028368794) 49%,
+    rgba(59, 27, 147, 1) 82%,
+    rgba(62, 33, 153, 1) 89%,
+    rgba(67, 40, 175, 1) 97%,
+    rgba(58, 28, 196, 1) 100%
+  );
+  height: 100vh;
+}
+
+main {
+  max-width: 350px;
+  background: rgb(23, 22, 38, 0.4);
+  width: 70%;
+  color: rgba(58, 28, 196, 1);
+  border: 2px solid rgb(75, 5, 181);
+  border-radius: 15px;
+}
+
+h1 {
+  margin: 20px 90px 0px;
+  text-align: center;
+  font-size: 24px;
+  border: 2px solid rgb(75, 5, 181);
+  border-radius: 30px;
+  padding: 6px 15px;
+}
+
+form {
+  padding: 20px;
+}
+
+form input {
+  font-family: Segoe UI, Helvetica, sans-serif;
+  border-radius: 30px;
+  border: solid 2px rgb(75, 5, 181);
+  padding: 5px 0;
+  background: none;
+  margin-top: 5px;
+  padding-left: 10px;
+  color: #fff;
+}
+
+form .login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+form .login p {
+  margin: 10px 0;
+  padding: 5px 40px;
+  border-radius: 30px;
+  border: 2px solid rgb(75, 5, 181);
+  background: none;
+  color: rgba(58, 28, 196, 1);
+  cursor: not-allowed;
+  font-weight: bold;
+}
+
+.input__bloc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 5px 0;
+}
+
+.input__bloc .error {
+  display: none;
+  color: #d65757;
+  font-size: 14px;
+}
+
+.succes {
+  display: none;
+  color: green;
+}
+/*# sourceMappingURL=style.css.map */
